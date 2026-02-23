@@ -6,6 +6,7 @@ Church website rebuild using SvelteKit 5 with a modern family-church aesthetic.
 
 - **Framework:** SvelteKit 2.50+ / Svelte 5.51+ (uses runes: `$state`, `$effect`, `$props`)
 - **Language:** TypeScript (strict mode)
+- **Runtime/Package Manager:** Bun 1.1+
 - **Build:** Vite 7.3+
 - **Styling:** CSS custom properties for light/dark theming, component-scoped `<style>` blocks
 - **Fonts:** Inter (sans), Playfair Display (serif) via Google Fonts
@@ -14,10 +15,10 @@ Church website rebuild using SvelteKit 5 with a modern family-church aesthetic.
 ## Quick Start
 
 ```bash
-npm run dev          # Start dev server (usually localhost:5173)
-npm run build        # Production build
-npm run preview      # Preview production build
-npm run check        # TypeScript + Svelte type checking
+bun run dev          # Start dev server (usually localhost:5173)
+bun run build        # Production build
+bun run preview      # Preview production build
+bun run check        # TypeScript + Svelte type checking
 ```
 
 ## Key File Locations

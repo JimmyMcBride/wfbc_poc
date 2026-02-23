@@ -4,7 +4,7 @@
 
 <button
 	onclick={toggleTheme}
-	class="theme-toggle"
+	class="flex items-center justify-center w-10 h-10 rounded-full text-(--color-nav-text) bg-(--color-bg-alt) border border-(--color-border) transition-all duration-200 ease cursor-pointer hover:bg-(--color-primary-light) hover:text-(--color-primary) hover:rotate-[15deg]"
 	aria-label="Toggle dark mode"
 	title={$themePreference === 'dark' ? 'Switch to light mode' : 'Switch to dark mode'}
 >
@@ -26,25 +26,3 @@
 		</svg>
 	{/if}
 </button>
-
-<style>
-	.theme-toggle {
-		display: flex;
-		align-items: center;
-		justify-content: center;
-		width: 40px;
-		height: 40px;
-		border-radius: var(--radius-full);
-		color: var(--color-nav-text);
-		background: var(--color-bg-alt);
-		border: 1px solid var(--color-border);
-		transition: all var(--transition);
-		cursor: pointer;
-	}
-
-	.theme-toggle:hover {
-		background: var(--color-primary-light);
-		color: var(--color-primary);
-		transform: rotate(15deg);
-	}
-</style>

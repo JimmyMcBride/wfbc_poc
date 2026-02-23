@@ -196,7 +196,7 @@ input {
 
 .btn-outline:hover {
 	background: var(--color-text-inverse);
-	color: var(--color-text);
+	color: #1a1a2e;
 }
 
 .btn-outline-dark {

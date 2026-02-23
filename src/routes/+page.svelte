@@ -6,6 +6,10 @@
 	import EventsCTA from '$lib/components/EventsCTA.svelte';
 </script>
 
+<svelte:head>
+	<title>First Baptist Church Wimberley</title>
+</svelte:head>
+
 <Hero />
 <Features />
 <Newsletter />

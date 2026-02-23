@@ -11,20 +11,19 @@
 	</div>
 </section>
 
-<section class="py-0 bg-[#89cddc]">
-	<div class="container max-w-none px-0">
-		<div class="grid grid-cols-1 lg:grid-cols-12">
-			<div class="lg:col-span-5 p-8 md:p-12 lg:p-16 flex flex-col justify-center text-black">
-				<h2 class="text-[clamp(1.5rem,3vw,2.2rem)] mb-4 text-black">Helping 9th -12th graders build a faith of their own</h2>
-				<p class="leading-[1.75] mb-6 text-black">Many opportunities for students to grow in their faith and build Godly relationships with other students.</p>
+<section class="py-10 md:py-14 bg-[#89cddc]">
+	<div class="container max-w-none px-4 md:px-6">
+		<div class="grid grid-cols-1">
+			<div class="w-full max-w-[760px] mx-auto p-8 md:p-12 lg:p-16 flex flex-col justify-center text-center text-black dark:text-white bg-(--color-bg-alt) rounded-[var(--radius-lg)] border border-(--color-border-light) shadow-[0_16px_40px_rgba(0,0,0,0.14)]">
+				<h2 class="text-[clamp(1.5rem,3vw,2.2rem)] mb-4">Helping 9th -12th graders build a faith of their own</h2>
+				<p class="leading-[1.75] mb-6">Many opportunities for students to grow in their faith and build Godly relationships with other students.</p>
 
-				<p class="font-semibold mb-1 text-black">Sunday Morning - Student Building</p>
-				<p class="text-black mb-4">9:30 AM</p>
+				<p class="font-semibold mb-1">Sunday Morning - Student Building</p>
+				<p class="mb-4">9:30 AM</p>
 
-				<p class="font-semibold mb-1 text-black">Wednesday</p>
-				<p class="text-black">6:15 - 8:00 pm</p>
+				<p class="font-semibold mb-1">Wednesday</p>
+				<p>6:15 - 8:00 pm</p>
 			</div>
-			<div class="lg:col-span-7 min-h-[200px] lg:min-h-[360px]"></div>
 		</div>
 	</div>
 </section>

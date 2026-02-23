@@ -26,9 +26,9 @@
 			<div>
 				<h4 class="font-sans text-[0.85rem] font-semibold uppercase tracking-[0.1em] text-(--color-footer-heading) mb-5">Resources</h4>
 				<ul class="flex flex-col gap-2.5">
-					<li><a href="https://fbcwimberley.com/connect/" class="text-(--color-footer-link) text-[0.9rem] transition-colors duration-200 hover:text-(--color-footer-link-hover)">Connect</a></li>
-					<li><a href="https://fbcwimberley.com/serve-the-community/" class="text-(--color-footer-link) text-[0.9rem] transition-colors duration-200 hover:text-(--color-footer-link-hover)">Serve The Community</a></li>
-					<li><a href="https://fbcwimberley.com/servethechurch/" class="text-(--color-footer-link) text-[0.9rem] transition-colors duration-200 hover:text-(--color-footer-link-hover)">Serve The Church</a></li>
+					<li><a href="/connect" class="text-(--color-footer-link) text-[0.9rem] transition-colors duration-200 hover:text-(--color-footer-link-hover)">Connect</a></li>
+					<li><a href="/serve-the-community" class="text-(--color-footer-link) text-[0.9rem] transition-colors duration-200 hover:text-(--color-footer-link-hover)">Serve The Community</a></li>
+					<li><a href="/serve-the-church" class="text-(--color-footer-link) text-[0.9rem] transition-colors duration-200 hover:text-(--color-footer-link-hover)">Serve The Church</a></li>
 					<li><a href="https://fbcwimberley.churchcenter.com/directory" class="text-(--color-footer-link) text-[0.9rem] transition-colors duration-200 hover:text-(--color-footer-link-hover)">Directory</a></li>
 				</ul>
 			</div>

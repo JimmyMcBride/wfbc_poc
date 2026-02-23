@@ -39,28 +39,29 @@
 		<nav class="hidden lg:block">
 			<ul class="flex items-center gap-1">
 				<li><a href="/about-us" class="nav-item inline-flex items-center gap-1 py-2 px-3.5 text-[0.9rem] font-medium text-white rounded-[var(--radius-sm)] transition-all duration-200 hover:text-(--color-accent)">About Us</a></li>
+				<li><a href="/connect" class="nav-item inline-flex items-center gap-1 py-2 px-3.5 text-[0.9rem] font-medium text-white rounded-[var(--radius-sm)] transition-all duration-200 hover:text-(--color-accent)">Connect</a></li>
 				<li class="has-dropdown relative">
 					<button class="nav-item inline-flex items-center gap-1 py-2 px-3.5 text-[0.9rem] font-medium text-white rounded-[var(--radius-sm)] transition-all duration-200 hover:text-(--color-accent)" onclick={() => ministriesOpen = !ministriesOpen}>
 						Ministries
 						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
 					</button>
 					<ul class="dropdown hidden absolute top-full left-0 min-w-[220px] bg-(--color-bg-card) border border-(--color-border) rounded-[var(--radius-md)] shadow-(--shadow-lg) p-2 z-50">
-						<li><a href="https://fbcwimberley.com/womens-ministry/" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Women's Ministry</a></li>
+						<li><a href="/ministries/womens-ministry" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Women's Ministry</a></li>
 						<li><a href="https://fbcwimberley.churchcenter.com/groups/ministries-fbcw/widows-ministry" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Widows Ministry</a></li>
 						<li><a href="https://fbcwimberley.churchcenter.com/groups/ministries-fbcw/men-s-ministry" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Men's Ministry</a></li>
-						<li><a href="https://fbcwimberley.com/care/" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Care</a></li>
-						<li><a href="https://www.youtube.com/playlist?list=PLKz_XG7H0s7ph34R0pZLEF55wfrM34kyo" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Missions</a></li>
+						<li><a href="/ministries/care" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Care</a></li>
+						<li><a href="/ministries/missions" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Missions</a></li>
 						<li class="has-subdropdown relative">
 							<span class="flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] cursor-default font-medium">
 								Family Life
 								<svg xmlns="http://www.w3.org/2000/svg" width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="9 18 15 12 9 6"></polyline></svg>
 							</span>
 							<ul class="subdropdown hidden absolute top-0 left-full min-w-[200px] bg-(--color-bg-card) border border-(--color-border) rounded-[var(--radius-md)] shadow-(--shadow-lg) p-2">
-								<li><a href="https://fbcwimberley.com/preschool/" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Preschool</a></li>
-								<li><a href="https://fbcwimberley.com/elementary/" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Elementary</a></li>
-								<li><a href="https://fbcwimberley.com/junior-high/" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Junior High</a></li>
-								<li><a href="https://fbcwimberley.com/high-school/" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">High School</a></li>
-								<li><a href="https://fbcwimberley.com/kids-day-out/" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Kids Day Out</a></li>
+								<li><a href="/ministries/preschool" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Preschool</a></li>
+								<li><a href="/ministries/elementary" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Elementary</a></li>
+								<li><a href="/ministries/junior-high" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Junior High</a></li>
+								<li><a href="/ministries/high-school" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">High School</a></li>
+								<li><a href="/ministries/kids-day-out" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Kids Day Out</a></li>
 							</ul>
 						</li>
 					</ul>
@@ -72,8 +73,8 @@
 						<svg xmlns="http://www.w3.org/2000/svg" width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="6 9 12 15 18 9"></polyline></svg>
 					</button>
 					<ul class="dropdown hidden absolute top-full left-0 min-w-[220px] bg-(--color-bg-card) border border-(--color-border) rounded-[var(--radius-md)] shadow-(--shadow-lg) p-2 z-50">
-						<li><a href="https://fbcwimberley.com/servethechurch/" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Serve The Church</a></li>
-						<li><a href="https://fbcwimberley.com/serve-the-community/" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Serve The Community</a></li>
+						<li><a href="/serve-the-church" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Serve The Church</a></li>
+						<li><a href="/serve-the-community" class="dropdown-link flex items-center justify-between py-2.5 px-3.5 text-[0.875rem] text-(--color-text) rounded-[var(--radius-sm)] transition-all duration-200 hover:bg-(--color-primary-light) hover:text-(--color-primary)">Serve The Community</a></li>
 					</ul>
 				</li>
 				<li><a href="https://fbcwimberley.churchcenter.com/registrations" class="nav-item inline-flex items-center gap-1 py-2 px-3.5 text-[0.9rem] font-medium text-white rounded-[var(--radius-sm)] transition-all duration-200 hover:text-(--color-accent)">Events</a></li>
@@ -107,6 +108,7 @@
 			<a href="/" class="block font-serif text-xl font-bold text-(--color-heading) pb-4 mb-2 border-b-2 border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>First Baptist Church</a>
 			<ul>
 				<li><a href="/about-us" class="flex items-center justify-between w-full py-3.5 text-base font-medium text-(--color-text) border-b border-(--color-border-light) transition-colors duration-200" onclick={closeMobile}>About Us</a></li>
+				<li><a href="/connect" class="flex items-center justify-between w-full py-3.5 text-base font-medium text-(--color-text) border-b border-(--color-border-light) transition-colors duration-200" onclick={closeMobile}>Connect</a></li>
 				<li>
 					<button class="flex items-center justify-between w-full py-3.5 text-base font-medium text-(--color-text) border-b border-(--color-border-light) text-left" onclick={() => ministriesOpen = !ministriesOpen}>
 						Ministries
@@ -114,11 +116,11 @@
 					</button>
 					{#if ministriesOpen}
 						<ul class="pl-4">
-							<li><a href="https://fbcwimberley.com/womens-ministry/" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Women's Ministry</a></li>
+							<li><a href="/ministries/womens-ministry" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Women's Ministry</a></li>
 							<li><a href="https://fbcwimberley.churchcenter.com/groups/ministries-fbcw/widows-ministry" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Widows Ministry</a></li>
 							<li><a href="https://fbcwimberley.churchcenter.com/groups/ministries-fbcw/men-s-ministry" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Men's Ministry</a></li>
-							<li><a href="https://fbcwimberley.com/care/" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Care</a></li>
-							<li><a href="https://www.youtube.com/playlist?list=PLKz_XG7H0s7ph34R0pZLEF55wfrM34kyo" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Missions</a></li>
+							<li><a href="/ministries/care" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Care</a></li>
+							<li><a href="/ministries/missions" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Missions</a></li>
 							<li>
 								<button class="flex items-center justify-between w-full py-3.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) text-left" onclick={() => familyLifeOpen = !familyLifeOpen}>
 									Family Life
@@ -126,11 +128,11 @@
 								</button>
 								{#if familyLifeOpen}
 									<ul class="pl-3">
-										<li><a href="https://fbcwimberley.com/preschool/" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Preschool</a></li>
-										<li><a href="https://fbcwimberley.com/elementary/" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Elementary</a></li>
-										<li><a href="https://fbcwimberley.com/junior-high/" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Junior High</a></li>
-										<li><a href="https://fbcwimberley.com/high-school/" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>High School</a></li>
-										<li><a href="https://fbcwimberley.com/kids-day-out/" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Kids Day Out</a></li>
+										<li><a href="/ministries/preschool" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Preschool</a></li>
+										<li><a href="/ministries/elementary" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Elementary</a></li>
+										<li><a href="/ministries/junior-high" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Junior High</a></li>
+										<li><a href="/ministries/high-school" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>High School</a></li>
+										<li><a href="/ministries/kids-day-out" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Kids Day Out</a></li>
 									</ul>
 								{/if}
 							</li>
@@ -145,8 +147,8 @@
 					</button>
 					{#if serveOpen}
 						<ul class="pl-4">
-							<li><a href="https://fbcwimberley.com/servethechurch/" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Serve The Church</a></li>
-							<li><a href="https://fbcwimberley.com/serve-the-community/" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Serve The Community</a></li>
+							<li><a href="/serve-the-church" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Serve The Church</a></li>
+							<li><a href="/serve-the-community" class="block py-2.5 text-[0.9rem] text-(--color-text-muted) border-b border-(--color-border-light) hover:text-(--color-primary)" onclick={closeMobile}>Serve The Community</a></li>
 						</ul>
 					{/if}
 				</li>

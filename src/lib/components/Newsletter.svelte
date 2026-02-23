@@ -17,7 +17,7 @@
 </script>
 
 <section class="relative py-20 md:py-28 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2025/07/102A6447-scaled.jpg')">
+	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2022/01/s-h-gue-CjMwAu4-OqY-unsplash-scaled.jpg')">
 		<div class="dark-overlay"></div>
 	</div>
 

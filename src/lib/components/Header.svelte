@@ -104,6 +104,7 @@
 	{#if mobileMenuOpen}
 		<div class="mobile-overlay" onclick={closeMobile} role="presentation"></div>
 		<nav class="mobile-nav">
+			<a href="/" class="mobile-home-link" onclick={closeMobile}>First Baptist Church</a>
 			<ul class="mobile-nav-list">
 				<li><a href="/about-us" onclick={closeMobile}>About Us</a></li>
 				<li>
@@ -362,9 +363,24 @@
 		width: min(320px, 85vw);
 		background: var(--color-bg);
 		z-index: 95;
-		padding: 5rem 1.5rem 2rem;
+		padding: 3rem 1.5rem 2rem;
 		overflow-y: auto;
 		box-shadow: var(--shadow-lg);
+	}
+
+	.mobile-home-link {
+		display: block;
+		font-family: var(--font-serif);
+		font-size: 1.25rem;
+		font-weight: 700;
+		color: var(--color-heading);
+		padding-bottom: 1rem;
+		margin-bottom: 0.5rem;
+		border-bottom: 2px solid var(--color-border-light);
+	}
+
+	.mobile-home-link:hover {
+		color: var(--color-primary);
 	}
 
 	.mobile-nav-list > li > a,

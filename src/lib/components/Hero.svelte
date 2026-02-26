@@ -1,4 +1,6 @@
 <script lang="ts">
+	import { onMount } from 'svelte';
+
 	const images = [
 		'/images/remote/fbcwimberley.com-102A6470-scaled-9eb00dbc08.webp',
 		'/images/remote/fbcwimberley.com-102A6447-scaled-ea6e616800.webp',
@@ -13,16 +15,40 @@
 		}, 5000);
 		return () => clearInterval(interval);
 	});
+
+	onMount(() => {
+		// Delay non-LCP image fetches so the first hero paint happens sooner.
+		const preloadTimer = window.setTimeout(() => {
+			for (const src of images.slice(1)) {
+				const img = new Image();
+				img.src = src;
+				img.decoding = 'async';
+			}
+		}, 2500);
+
+		return () => window.clearTimeout(preloadTimer);
+	});
 </script>
+
+<svelte:head>
+	<link rel="preload" as="image" href={images[0]} fetchpriority="high" />
+</svelte:head>
 
 <section class="relative min-h-screen flex items-end justify-center overflow-hidden">
 	{#each images as src, i}
-		<div
-			class="hero-slide absolute inset-0 bg-cover bg-center will-change-[opacity] transition-opacity duration-1000 ease-in-out"
-			class:opacity-100={currentSlide === i}
-			class:opacity-0={currentSlide !== i}
-			style="background-image: url('{src}')"
-		></div>
+		{#if i === 0 || i === currentSlide}
+			<img
+				src={src}
+				alt=""
+				aria-hidden="true"
+				class="hero-slide absolute inset-0 w-full h-full object-cover will-change-[opacity] transition-opacity duration-1000 ease-in-out"
+				class:opacity-100={currentSlide === i}
+				class:opacity-0={currentSlide !== i}
+				loading={i === 0 ? 'eager' : 'lazy'}
+				fetchpriority={i === 0 ? 'high' : 'low'}
+				decoding="async"
+			/>
+		{/if}
 	{/each}
 	<div class="absolute inset-0 bg-linear-to-t from-[rgba(0,0,0,0.7)] via-[rgba(0,0,0,0.3)] to-[rgba(0,0,0,0.15)] z-1"></div>
 

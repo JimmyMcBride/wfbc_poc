@@ -25,12 +25,12 @@
 	<div class="container flex items-center justify-between py-4">
 		<a href="/" class="shrink-0">
 			<img
-				src="https://fbcwimberley.com/wp-content/uploads/2022/09/First-Baptist-Church-of-wimberley-Wordmark-black.png"
+				src="/images/remote/fbcwimberley.com-First-Baptist-Church-of-wimberley-Wordmark-black-17cf094f99.webp"
 				alt="First Baptist Church Wimberley"
 				class="logo-light h-10 w-auto hidden"
 			/>
 			<img
-				src="https://fbcwimberley.com/wp-content/uploads/2022/09/First-Baptist-Church-of-wimberley-Wordmark-white-2.png"
+				src="/images/remote/fbcwimberley.com-First-Baptist-Church-of-wimberley-Wordmark-white-2-29ef5e03e3.webp"
 				alt="First Baptist Church Wimberley"
 				class="logo-dark h-10 w-auto block"
 			/>

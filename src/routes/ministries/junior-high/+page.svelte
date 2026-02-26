@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2020/04/Jr-Hight-girls.jpg')"></div>
+	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/remote/fbcwimberley.com-Jr-Hight-girls-dc482c7b18.webp')"></div>
 	<div class="absolute inset-0 bg-[rgba(77,146,202,0.58)]"></div>
 	<div class="relative z-1 text-center px-6">
 		<p class="section-label text-white/85">Family Life</p>
@@ -23,7 +23,7 @@
 				<p class="text-black">6:15-8:00 PM</p>
 			</div>
 			<div class="lg:col-span-7">
-				<img src="https://fbcwimberley.com/wp-content/uploads/2020/03/Jr-high-camp.jpg" alt="Junior High students at camp" loading="lazy" class="w-full h-full min-h-[320px] object-cover" />
+				<img src="/images/remote/fbcwimberley.com-Jr-high-camp-7af3aaa3a4.webp" alt="Junior High students at camp" loading="lazy" class="w-full h-full min-h-[320px] object-cover" />
 			</div>
 		</div>
 	</div>

@@ -11,47 +11,47 @@
 	};
 
 	const featureImages = [
-		'https://fbcwimberley.com/wp-content/uploads/2026/01/1-1.png',
-		'https://fbcwimberley.com/wp-content/uploads/2026/01/2-1.png',
-		'https://fbcwimberley.com/wp-content/uploads/2026/01/3-1.png',
-		'https://fbcwimberley.com/wp-content/uploads/2026/01/4-1.png',
-		'https://fbcwimberley.com/wp-content/uploads/2026/01/5-1.png',
-		'https://fbcwimberley.com/wp-content/uploads/2026/01/6.png',
-		'https://fbcwimberley.com/wp-content/uploads/2026/01/7.png',
-		'https://fbcwimberley.com/wp-content/uploads/2026/01/8.png'
+		'/images/remote/fbcwimberley.com-1-1-78216c6fbe.webp',
+		'/images/remote/fbcwimberley.com-2-1-7f004098ba.webp',
+		'/images/remote/fbcwimberley.com-3-1-e4b6ede451.webp',
+		'/images/remote/fbcwimberley.com-4-1-8dddaca65b.webp',
+		'/images/remote/fbcwimberley.com-5-1-2922d89259.webp',
+		'/images/remote/fbcwimberley.com-6-27a81a5c7f.webp',
+		'/images/remote/fbcwimberley.com-7-8561f53ec6.webp',
+		'/images/remote/fbcwimberley.com-8-d57f7ec52e.webp'
 	];
 
 	const staffLead = [
-		{ name: 'Shelby Hubbard', role: 'Director', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Shelby-Hubbard.png' },
-		{ name: 'Sarah Raquet', role: 'Assistant Director', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Sarah-Raquet.png' }
+		{ name: 'Shelby Hubbard', role: 'Director', image: '/images/remote/fbcwimberley.com-Shelby-Hubbard-4bea81a076.webp' },
+		{ name: 'Sarah Raquet', role: 'Assistant Director', image: '/images/remote/fbcwimberley.com-Sarah-Raquet-4b4c875c36.webp' }
 	];
 
 	const ageOneTeachers = [
-		{ name: 'Evonne Dingman', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Evonne-Dingman.png' },
-		{ name: 'Abigail Morehous', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Abigail-Morehous.png' },
-		{ name: 'Brianna Pietrowski', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Brianna-Pietrowski.png' },
-		{ name: 'Lisa Vrana', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Lisa-Vrana.png' }
+		{ name: 'Evonne Dingman', image: '/images/remote/fbcwimberley.com-Evonne-Dingman-9eced58b45.webp' },
+		{ name: 'Abigail Morehous', image: '/images/remote/fbcwimberley.com-Abigail-Morehous-2136d9df80.webp' },
+		{ name: 'Brianna Pietrowski', image: '/images/remote/fbcwimberley.com-Brianna-Pietrowski-8fe2752759.webp' },
+		{ name: 'Lisa Vrana', image: '/images/remote/fbcwimberley.com-Lisa-Vrana-4b4ac522de.webp' }
 	];
 
 	const ageTwoTeachers = [
-		{ name: 'Shannon Atkins', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Shannon-Atkins.png' },
-		{ name: 'Jenna Dysart', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Jenna-Dysart.png' },
-		{ name: 'Kristin Knipp', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Kristin-Knipp-.png' },
-		{ name: 'Rebekah Presley', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Rebekah-Presley.png' }
+		{ name: 'Shannon Atkins', image: '/images/remote/fbcwimberley.com-Shannon-Atkins-ae5256c66a.webp' },
+		{ name: 'Jenna Dysart', image: '/images/remote/fbcwimberley.com-Jenna-Dysart-4333c767c9.webp' },
+		{ name: 'Kristin Knipp', image: '/images/remote/fbcwimberley.com-Kristin-Knipp-9612a1fe67.webp' },
+		{ name: 'Rebekah Presley', image: '/images/remote/fbcwimberley.com-Rebekah-Presley-3ef803f787.webp' }
 	];
 
 	const ageThreeTeachers = [
-		{ name: 'Lauren Badillo', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Lauren-Badillo.png' },
-		{ name: 'Joyce Hurt', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Joyce-Hurt.png' },
-		{ name: 'Michelle Robinson', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Michelle-Robinson.png' }
+		{ name: 'Lauren Badillo', image: '/images/remote/fbcwimberley.com-Lauren-Badillo-ce17e801f4.webp' },
+		{ name: 'Joyce Hurt', image: '/images/remote/fbcwimberley.com-Joyce-Hurt-75848d562d.webp' },
+		{ name: 'Michelle Robinson', image: '/images/remote/fbcwimberley.com-Michelle-Robinson-23001d70cb.webp' }
 	];
 
 	const ageFourTeachers = [
-		{ name: 'Barbara Scherff', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Untitled-design.png' },
-		{ name: 'Caitlyn Scrogin', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Caitlyn-Scrogin.png' }
+		{ name: 'Barbara Scherff', image: '/images/remote/fbcwimberley.com-Untitled-design-958a5038d2.webp' },
+		{ name: 'Caitlyn Scrogin', image: '/images/remote/fbcwimberley.com-Caitlyn-Scrogin-0861dd56dd.webp' }
 	];
 
-	const supportTeachers = [{ name: 'Sara Richart', image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Sara-Richart.png' }];
+	const supportTeachers = [{ name: 'Sara Richart', image: '/images/remote/fbcwimberley.com-Sara-Richart-b6723d1ecd.webp' }];
 
 	let name = $state('');
 	let email = $state('');
@@ -135,7 +135,7 @@
 
 <section class="py-2">
 	<div class="container max-w-[980px]">
-		<img src="https://fbcwimberley.com/wp-content/uploads/2026/01/9.png" alt="Kids Day Out highlight" loading="lazy" class="w-full h-auto object-cover rounded-[var(--radius-lg)]" />
+		<img src="/images/remote/fbcwimberley.com-9-37c1e213ce.webp" alt="Kids Day Out highlight" loading="lazy" class="w-full h-auto object-cover rounded-[var(--radius-lg)]" />
 	</div>
 </section>
 

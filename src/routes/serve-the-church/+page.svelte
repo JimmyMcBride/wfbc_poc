@@ -2,22 +2,22 @@
 	const serveCards = [
 		{
 			title: 'Greeting Team',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2022/06/website-hero-updated-627-HD-1080p-mov-image.jpg',
+			image: '/images/remote/fbcwimberley.com-website-hero-updated-627-HD-1080p-mov-image-079f4b4483.webp',
 			href: 'https://fbcwimberley.com/greeting-team/'
 		},
 		{
 			title: 'Technical Arts',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2022/04/IMG_5086-scaled.jpg',
+			image: '/images/remote/fbcwimberley.com-IMG_5086-scaled-2a72837c06.webp',
 			href: 'https://fbcwimberley.com/technical-arts/'
 		},
 		{
 			title: 'Security Team',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2022/11/israel-fuentes-wvddOt5dot0-unsplash-scaled.jpg',
+			image: '/images/remote/fbcwimberley.com-israel-fuentes-wvddOt5dot0-unsplash-scaled-83aee5e4e8.webp',
 			href: 'https://fbcwimberley.com/security-team/'
 		},
 		{
 			title: 'Kids Ministry',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2020/04/preschool_first_baptist_wimberley.jpg',
+			image: '/images/remote/fbcwimberley.com-preschool_first_baptist_wimberley-ab0dfc5303.webp',
 			href: 'https://fbcwimberley.com/security-team-2/'
 		}
 	];
@@ -30,7 +30,7 @@
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#0f2135]">
 	<div class="absolute inset-0 flex items-center justify-center">
 		<img
-			src="https://fbcwimberley.com/wp-content/uploads/2020/03/wimberley_church_serve.jpg"
+			src="/images/remote/fbcwimberley.com-wimberley_church_serve-ae435911b2.webp"
 			alt="Serving at church"
 			loading="lazy"
 			class="h-full w-auto object-contain"

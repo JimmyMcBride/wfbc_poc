@@ -1,8 +1,8 @@
 <script lang="ts">
 	const images = [
-		'https://fbcwimberley.com/wp-content/uploads/2025/07/102A6470-scaled.jpg',
-		'https://fbcwimberley.com/wp-content/uploads/2025/07/102A6447-scaled.jpg',
-		'https://fbcwimberley.com/wp-content/uploads/2025/07/102A5443-scaled.jpg'
+		'/images/remote/fbcwimberley.com-102A6470-scaled-9eb00dbc08.webp',
+		'/images/remote/fbcwimberley.com-102A6447-scaled-ea6e616800.webp',
+		'/images/remote/fbcwimberley.com-102A5443-scaled-9aa360e309.webp'
 	];
 
 	let currentSlide = $state(0);
@@ -29,6 +29,6 @@
 	<div class="container relative z-2 text-center pb-24">
 		<h1 class="font-serif text-[clamp(2rem,5vw,3.5rem)] font-bold text-white mb-4 drop-shadow-[0_2px_20px_rgba(0,0,0,0.3)] tracking-tight">To Truly Know Jesus<br />And To Make His Truth Known.</h1>
 		<p class="text-[clamp(1rem,2vw,1.35rem)] text-white/90 mb-8 font-normal tracking-[0.05em]">Sundays at 9:30AM and 11:00AM</p>
-		<a href="https://fbcwimberley.com/watch/" class="btn btn-outline hover:btn-outline-hover">Watch Now</a>
+		<a href="/watch" class="btn btn-outline hover:btn-outline-hover">Watch Now</a>
 	</div>
 </section>

@@ -4,78 +4,78 @@
 			name: 'Dr. Aaron T. Colyer',
 			title: 'Lead Pastor, Elder',
 			email: 'pastoraaron@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Aaron-Colyer-1024x683.jpg',
+			image: '/images/remote/fbcwimberley.com-Aaron-Colyer-1024x683-1074cb0cd4.webp',
 			bio: 'Aaron and his sweet bride Krista married in 2006. They have three amazing kids. He has a passion for equipping the saints for the work of ministry and a desire to see all believers take the gospel to the ends of the earth. This includes a focus on family discipleship and making Christ the center of every home. Born and raised in Texas, he received a B.S. in Communications from the University of Texas in Austin, his M.Div. and Doctorate in Leadership from The Southern Baptist Theological Seminary. Outside of ministry you can find Aaron enjoying family time and spending as much time as possible outdoors.'
 		},
 		{
 			name: 'Mike Gibbons',
 			title: 'Executive Pastor',
 			email: 'mike@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Mike-Gibbons-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-Mike-Gibbons-1024x683-2f1c6e26df.webp'
 		},
 		{
 			name: 'Isak Morehous',
 			title: 'Minister to Students and Families',
 			email: 'isak@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Isak-Morehous-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-Isak-Morehous-1024x683-ee783f0330.webp'
 		},
 		{
 			name: 'Dan Stephens',
 			title: 'Minister to Senior Adults',
 			email: 'dan@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Dan-Stephens-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-Dan-Stephens-1024x683-a9e78e5ea3.webp'
 		},
 		{
 			name: 'Melinda Tyler',
 			title: 'Ministry Director to Kids and Families',
 			email: 'melinda@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Melinda-Tyler-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-Melinda-Tyler-1024x683-7a941d1419.webp'
 		},
 		{
 			name: 'Nancy Williams',
 			title: 'Life Coach and Consultant',
 			email: 'nancy@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Nancy-Williams-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-Nancy-Williams-1024x683-b1aa2041fe.webp'
 		},
 		{
 			name: 'Jake Kral',
 			title: 'Minister Of Music and Creative Arts',
 			email: 'music@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Jake-Kral-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-Jake-Kral-1024x683-46b52e12fe.webp'
 		},
 		{
 			name: 'Marty Beard',
 			title: 'Church Administrative Professional',
 			email: 'marty@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Marty-Beard-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-Marty-Beard-1024x683-87f60b485d.webp'
 		},
 		{
 			name: 'Steve Youngblood',
 			title: 'Facilities Assistant',
 			email: 'office@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Steve-Youngblood-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-Steve-Youngblood-1024x683-02a37e5c5d.webp'
 		},
 		{
 			name: 'Shelby Hubbard',
 			title: "Kid's Day Out Director",
 			email: 'shelby@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Shelby-Hubbard-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-Shelby-Hubbard-1024x683-f8483bfe86.webp'
 		},
 		{
 			name: 'Shannon Tyson',
 			title: 'Finance',
 			email: 'financial@fbcwimberley.com',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Your-paragraph-text-2-1024x683.png'
+			image: '/images/remote/fbcwimberley.com-Your-paragraph-text-2-1024x683-81878c9601.webp'
 		},
 		{
 			name: 'John Dunn',
 			title: 'Elder',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/John-Dunn-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-John-Dunn-1024x683-7d658997a3.webp'
 		},
 		{
 			name: 'Mike Stevens',
 			title: 'Elder',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2026/01/Mike-Stephens-1024x683.jpg'
+			image: '/images/remote/fbcwimberley.com-Mike-Stephens-1024x683-135df65071.webp'
 		}
 	];
 
@@ -141,7 +141,7 @@
 
 <!-- Hero -->
 <section class="relative min-h-[50vh] md:min-h-[55vh] flex items-end justify-center overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2020/02/img-18-1.jpg')"></div>
+	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/remote/fbcwimberley.com-img-18-1-2fb22432d7.webp')"></div>
 	<div class="absolute inset-0 bg-linear-to-t from-[rgba(0,0,0,0.7)] to-[rgba(0,0,0,0.25)]"></div>
 	<div class="relative z-1 text-center pb-16">
 		<p class="section-label">Welcome Home</p>
@@ -162,7 +162,7 @@
 
 <!-- Vision -->
 <section class="relative py-24 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2025/07/102A5443-scaled.jpg')">
+	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-102A5443-scaled-9aa360e309.webp')">
 		<div class="dark-overlay"></div>
 	</div>
 	<div class="container relative z-1 max-w-[800px] text-center">
@@ -188,7 +188,7 @@
 
 		<div class="rounded-[var(--radius-lg)] overflow-hidden mb-12">
 			<img
-				src="https://fbcwimberley.com/wp-content/uploads/2026/01/Staff-1024x683.jpg"
+				src="/images/remote/fbcwimberley.com-Staff-1024x683-bfe874733d.webp"
 				alt="FBC Wimberley Staff"
 				loading="lazy"
 				class="w-full h-auto object-cover"
@@ -226,7 +226,7 @@
 
 <!-- Plan Your Visit -->
 <section class="relative py-24 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2025/07/102A6470-scaled.jpg')">
+	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-102A6470-scaled-9eb00dbc08.webp')">
 		<div class="dark-overlay"></div>
 	</div>
 	<div class="container relative z-1 max-w-[800px] text-center">
@@ -271,7 +271,7 @@
 
 <!-- Mission -->
 <section class="relative py-24 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2022/01/s-h-gue-CjMwAu4-OqY-unsplash-scaled.jpg')">
+	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-s-h-gue-CjMwAu4-OqY-unsplash-scaled-f09ccd30b3.webp')">
 		<div class="dark-overlay"></div>
 	</div>
 	<div class="container relative z-1 max-w-[900px] text-center">

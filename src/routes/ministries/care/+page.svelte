@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section class="relative min-h-screen flex items-end justify-center overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2022/11/jack-sharp-ShCVvQbQBDk-unsplash.jpg')"></div>
+	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/remote/fbcwimberley.com-jack-sharp-ShCVvQbQBDk-unsplash-7b7823e431.webp')"></div>
 	<div class="absolute inset-0 bg-linear-to-t from-[rgba(0,0,0,0.74)] to-[rgba(0,0,0,0.3)]"></div>
 	<div class="relative z-1 text-center pb-14 px-6">
 		<p class="section-label">Ministries</p>
@@ -23,7 +23,7 @@
 			<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
 				<div class="lg:col-span-1 rounded-[var(--radius-lg)] overflow-hidden border border-(--color-border-light)">
 					<img
-						src="/images/pastoral-counseling.png"
+						src="/images/pastoral-counseling.webp"
 						alt="A male pastor giving counsel to someone in a church setting"
 						loading="lazy"
 						class="w-full aspect-square object-cover"
@@ -53,7 +53,7 @@
 				</div>
 				<div class="lg:col-span-1 rounded-[var(--radius-lg)] overflow-hidden border border-(--color-border-light)">
 					<img
-						src="/images/life-coaching-conversation.png"
+						src="/images/life-coaching-conversation.webp"
 						alt="Close-up of two people at a table with only hands and partial bodies visible"
 						loading="lazy"
 						class="w-full aspect-square object-cover"

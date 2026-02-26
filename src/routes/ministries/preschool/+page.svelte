@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2020/04/preschool_first_baptist_wimberley.jpg')"></div>
+	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/remote/fbcwimberley.com-preschool_first_baptist_wimberley-ab0dfc5303.webp')"></div>
 	<div class="absolute inset-0 bg-[rgba(64,139,201,0.55)]"></div>
 	<div class="relative z-1 text-center px-6">
 		<p class="section-label text-white/85">Family Life</p>
@@ -44,7 +44,7 @@
 </section>
 
 <section class="relative py-20 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-left-top" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2020/02/img-17.jpg')"></div>
+	<div class="absolute inset-0 bg-cover bg-left-top" style="background-image: url('/images/remote/fbcwimberley.com-img-17-5101ecf5e9.webp')"></div>
 	<div class="absolute inset-0 bg-white/75"></div>
 	<div class="container relative z-1">
 		<h2 class="text-[clamp(1.6rem,3.5vw,2.4rem)] max-w-[720px] text-black">God made Me, God Loves Me, And Jesus Wants To Be my Friend Forever</h2>
@@ -81,7 +81,7 @@
 				<a href="https://fbcwimberley.churchcenter.com/registrations/events/1879085" target="_blank" rel="noopener" class="btn btn-accent hover:btn-accent-hover">Register</a>
 			</div>
 			<div class="lg:col-span-7">
-				<img src="https://fbcwimberley.com/wp-content/uploads/2020/03/prschool-children.jpg" alt="Preschool children" loading="lazy" class="w-full h-full min-h-[320px] object-cover" />
+				<img src="/images/remote/fbcwimberley.com-prschool-children-4176b1c39a.webp" alt="Preschool children" loading="lazy" class="w-full h-full min-h-[320px] object-cover" />
 			</div>
 		</div>
 	</div>
@@ -91,7 +91,7 @@
 	<div class="container max-w-none px-0">
 		<div class="grid grid-cols-1 lg:grid-cols-12">
 			<div class="lg:col-span-7 order-2 lg:order-1">
-				<img src="https://fbcwimberley.com/wp-content/uploads/2020/03/preschool-4.jpg" alt="Kids Day Out" loading="lazy" class="w-full h-full min-h-[320px] object-cover" />
+				<img src="/images/remote/fbcwimberley.com-preschool-4-f85b959474.webp" alt="Kids Day Out" loading="lazy" class="w-full h-full min-h-[320px] object-cover" />
 			</div>
 			<div class="lg:col-span-5 order-1 lg:order-2 bg-[#89cddc] p-8 md:p-12 lg:p-16 flex flex-col justify-center text-black">
 				<h3 class="text-[clamp(1.5rem,3vw,2.1rem)] mb-4 text-black">Kids Day Out</h3>
@@ -105,11 +105,11 @@
 </section>
 
 <section class="relative py-20 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2020/01/Vintage-Paper-2-1.jpg')"></div>
+	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/remote/fbcwimberley.com-Vintage-Paper-2-1-9ee73bcf93.webp')"></div>
 	<div class="container relative z-1 max-w-[1100px]">
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
 			<div class="mx-auto">
-				<img src="https://fbcwimberley.com/wp-content/uploads/2020/01/Google-Pixel.png" alt="Phone updates" loading="lazy" class="w-[220px] md:w-[280px] h-auto" />
+				<img src="/images/remote/fbcwimberley.com-Google-Pixel-3424c6cb57.webp" alt="Phone updates" loading="lazy" class="w-[220px] md:w-[280px] h-auto" />
 			</div>
 			<div>
 				<h2 class="text-[clamp(1.6rem,3.5vw,2.4rem)] mb-4 text-black">Be In The Know</h2>

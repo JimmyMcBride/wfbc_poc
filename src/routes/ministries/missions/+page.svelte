@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section class="relative min-h-[44vh] md:min-h-[50vh] flex items-end justify-center overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2022/01/s-h-gue-CjMwAu4-OqY-unsplash-scaled.jpg')"></div>
+	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/remote/fbcwimberley.com-s-h-gue-CjMwAu4-OqY-unsplash-scaled-f09ccd30b3.webp')"></div>
 	<div class="absolute inset-0 bg-linear-to-t from-[rgba(0,0,0,0.74)] to-[rgba(0,0,0,0.28)]"></div>
 	<div class="relative z-1 text-center pb-14 px-6">
 		<p class="section-label">Ministries</p>

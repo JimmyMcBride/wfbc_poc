@@ -3,7 +3,7 @@
 </svelte:head>
 
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2020/02/header_bg_6.jpg')"></div>
+	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/remote/fbcwimberley.com-header_bg_6-5ad6a7f59f.webp')"></div>
 	<div class="absolute inset-0 bg-[rgba(77,146,202,0.58)]"></div>
 	<div class="relative z-1 text-center px-6">
 		<p class="section-label text-white/85">Family Life</p>
@@ -44,7 +44,7 @@
 </section>
 
 <section class="relative py-20 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-left-top" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2020/02/img-17.jpg')"></div>
+	<div class="absolute inset-0 bg-cover bg-left-top" style="background-image: url('/images/remote/fbcwimberley.com-img-17-5101ecf5e9.webp')"></div>
 	<div class="absolute inset-0 bg-white/75"></div>
 	<div class="container relative z-1">
 		<h2 class="text-[clamp(1.5rem,3.3vw,2.3rem)] max-w-[860px] text-black">I can trust God no matter what. I can make the wise choice. I can treat others the way I want to be treated.</h2>
@@ -64,7 +64,7 @@
 				<p class="text-black">6:15 pm</p>
 			</div>
 			<div class="lg:col-span-7">
-				<img src="https://fbcwimberley.com/wp-content/uploads/2020/04/baptism-kids-wimberley.jpg" alt="Elementary kids baptism" loading="lazy" class="w-full h-full min-h-[320px] object-cover" />
+				<img src="/images/remote/fbcwimberley.com-baptism-kids-wimberley-ba79eca700.webp" alt="Elementary kids baptism" loading="lazy" class="w-full h-full min-h-[320px] object-cover" />
 			</div>
 		</div>
 	</div>

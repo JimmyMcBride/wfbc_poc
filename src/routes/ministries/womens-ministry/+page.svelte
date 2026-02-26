@@ -119,7 +119,7 @@
 </svelte:head>
 
 <section class="relative min-h-[50vh] md:min-h-[56vh] flex items-end justify-center overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2022/10/MG_6048-scaled.jpg')"></div>
+	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/remote/fbcwimberley.com-MG_6048-scaled-3ab2eebb7c.webp')"></div>
 	<div class="absolute inset-0 bg-linear-to-t from-[rgba(0,0,0,0.72)] to-[rgba(0,0,0,0.28)]"></div>
 	<div class="relative z-1 text-center pb-16 px-6">
 		<p class="section-label">Ministries</p>
@@ -193,7 +193,7 @@
 </section>
 
 <section class="relative py-24 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('https://fbcwimberley.com/wp-content/uploads/2022/10/MG_6048-scaled.jpg')">
+	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-MG_6048-scaled-3ab2eebb7c.webp')">
 		<div class="dark-overlay"></div>
 	</div>
 	<div class="container relative z-1 max-w-[860px] text-center">

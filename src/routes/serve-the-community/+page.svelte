@@ -2,7 +2,7 @@
 	const communityCards = [
 		{
 			title: 'Carpenters Helpers',
-			image: 'https://fbcwimberley.com/wp-content/uploads/2020/02/img-15.jpg',
+			image: '/images/remote/fbcwimberley.com-img-15-d0c7777584.webp',
 			href: 'https://fbcwimberley.com/carpentershelpers/'
 		}
 	];
@@ -15,7 +15,7 @@
 <section class="relative min-h-screen flex items-center justify-center overflow-hidden bg-[#132638]">
 	<div class="absolute inset-0 flex items-center justify-center">
 		<img
-			src="https://fbcwimberley.com/wp-content/uploads/2021/04/missions-2.jpeg"
+			src="/images/remote/fbcwimberley.com-missions-2-3a0b1a988c.webp"
 			alt="Serve the community"
 			loading="lazy"
 			class="h-full w-auto object-contain"

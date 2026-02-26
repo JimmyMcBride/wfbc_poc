@@ -3,7 +3,7 @@
 		{
 			icon: 'tv',
 			title: 'Watch Online',
-			description: 'Join us each Sunday for a live stream of our 11AM worship gathering or on-demand any time of the week!',
+			description: 'Join us each Sunday for a live stream of our 9:30AM worship gathering or on-demand any time of the week!',
 			href: 'https://fbcwimberley.com/watch/'
 		},
 		{

@@ -19,22 +19,46 @@
 
 <section class="py-20 bg-(--color-bg-alt)">
 	<div class="container max-w-[1000px]">
-		<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
-			<div class="lg:col-span-1 rounded-[var(--radius-lg)] overflow-hidden border border-(--color-border-light)">
-				<img
-					src="https://fbcwimberley.com/wp-content/uploads/2020/01/bg-img-1-1024x518.jpg"
-					alt="Pastoral care at FBC Wimberley"
-					loading="lazy"
-					class="w-full h-auto object-cover"
-				/>
+		<div class="space-y-8">
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+				<div class="lg:col-span-1 rounded-[var(--radius-lg)] overflow-hidden border border-(--color-border-light)">
+					<img
+						src="/images/pastoral-counseling.png"
+						alt="A male pastor giving counsel to someone in a church setting"
+						loading="lazy"
+						class="w-full aspect-square object-cover"
+					/>
+				</div>
+				<div class="lg:col-span-2 rounded-[var(--radius-lg)] border border-(--color-border-light) bg-(--color-bg-card) p-7 md:p-9">
+					<h2 class="text-[clamp(1.4rem,3vw,2rem)] mb-4">Pastoral Counseling</h2>
+					<p class="text-(--color-text-muted) leading-[1.82] text-[1.02rem]">
+						We were not made to go through challenging circumstances alone. FBCW offers encouraging support through pastoral counseling.
+						Our team of experienced pastors are available to share a Biblical perspective with you and offer practical guidance and encouragement.
+						If you would like to meet with a pastor please email
+						<a href="mailto:mike@fbcwimberley.com" class="font-semibold">mike@fbcwimberley.com</a>.
+					</p>
+				</div>
 			</div>
-			<div class="lg:col-span-2 rounded-[var(--radius-lg)] border border-(--color-border-light) bg-(--color-bg-card) p-7 md:p-9">
-				<h2 class="text-[clamp(1.4rem,3vw,2rem)] mb-4">Pastoral Counseling</h2>
-				<p class="text-(--color-text-muted) leading-[1.82] text-[1.02rem]">
-					We were not made to go through challenging circumstances alone. FBCW offers encouraging support through pastoral counseling.
-					Our team of experienced pastors are available to share a biblical perspective with you and offer practical guidance and encouragement.
-					If you would like to meet with a pastor please email <a href="mailto:dan@fbcwimberley.com" class="font-semibold">dan@fbcwimberley.com</a>.
-				</p>
+
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-6 items-center">
+				<div class="lg:col-span-2 rounded-[var(--radius-lg)] border border-(--color-border-light) bg-(--color-bg-card) p-7 md:p-9">
+					<h2 class="text-[clamp(1.4rem,3vw,2rem)] mb-4">Life Coaching</h2>
+					<p class="text-(--color-text-muted) leading-[1.82] text-[1.02rem]">
+						When you find yourself struggling to manage life challenges or want to learn how to encourage others who are facing difficulties, Life
+						Coaching in a confidential setting may be helpful support. As a trained Christian Life Coach and Consultant, Nancy helps people learn how to
+						resolve or effectively manage life challenges so they can embrace to the fullest the life God has designed uniquely for them. If longer term
+						or more intensive counseling is needed, Nancy will help you with referral resources. Contact Nancy at
+						<a href="mailto:nancy@fbcwimberley.com" class="font-semibold">nancy@fbcwimberley.com</a>.
+					</p>
+				</div>
+				<div class="lg:col-span-1 rounded-[var(--radius-lg)] overflow-hidden border border-(--color-border-light)">
+					<img
+						src="/images/life-coaching-conversation.png"
+						alt="Close-up of two people at a table with only hands and partial bodies visible"
+						loading="lazy"
+						class="w-full aspect-square object-cover"
+					/>
+				</div>
 			</div>
 		</div>
 	</div>

@@ -9,7 +9,9 @@
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6 mb-10">
 			<div class="nextstep-image-wrap rounded-[var(--radius-lg)] overflow-hidden relative group">
 				<img
-					src="/images/remote/fbcwimberley.com-102A0963-scaled-283b05ccc9.webp"
+					src="/images/remote/fbcwimberley.com-102A0963-scaled-283b05ccc9-960.webp"
+					srcset="/images/remote/fbcwimberley.com-102A0963-scaled-283b05ccc9-640.webp 640w, /images/remote/fbcwimberley.com-102A0963-scaled-283b05ccc9-960.webp 960w"
+					sizes="(min-width: 768px) 45vw, 100vw"
 					alt="Church community"
 					loading="lazy"
 					class="w-full h-[260px] md:h-[340px] object-cover transition-transform duration-600 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-[1.04]"
@@ -17,7 +19,9 @@
 			</div>
 			<div class="nextstep-image-wrap rounded-[var(--radius-lg)] overflow-hidden relative group">
 				<img
-					src="/images/remote/fbcwimberley.com-102A6400-1-scaled-2a1dd8d246.webp"
+					src="/images/remote/fbcwimberley.com-102A6400-1-scaled-2a1dd8d246-960.webp"
+					srcset="/images/remote/fbcwimberley.com-102A6400-1-scaled-2a1dd8d246-640.webp 640w, /images/remote/fbcwimberley.com-102A6400-1-scaled-2a1dd8d246-960.webp 960w"
+					sizes="(min-width: 768px) 45vw, 100vw"
 					alt="Church fellowship"
 					loading="lazy"
 					class="w-full h-[260px] md:h-[340px] object-cover transition-transform duration-600 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-[1.04]"

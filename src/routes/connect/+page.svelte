@@ -90,7 +90,7 @@
 </svelte:head>
 
 <section class="relative min-h-[52vh] md:min-h-[58vh] flex items-end justify-center overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/remote/fbcwimberley.com-102A5443-scaled-9aa360e309.webp')"></div>
+	<div class="absolute inset-0 bg-cover bg-center" style="background-image: url('/images/remote/fbcwimberley.com-102A5443-scaled-9aa360e309-1600.webp')"></div>
 	<div class="absolute inset-0 bg-linear-to-t from-[rgba(0,0,0,0.72)] to-[rgba(0,0,0,0.25)]"></div>
 	<div class="relative z-1 text-center pb-16 px-6">
 		<p class="section-label">Get Connected</p>
@@ -146,7 +146,7 @@
 </section>
 
 <section class="relative py-24 md:py-28 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-102A6400-1-scaled-2a1dd8d246.webp')">
+	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-102A6400-1-scaled-2a1dd8d246-960.webp')">
 		<div class="dark-overlay"></div>
 	</div>
 

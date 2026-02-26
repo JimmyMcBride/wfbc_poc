@@ -162,7 +162,7 @@
 
 <!-- Vision -->
 <section class="relative py-24 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-102A5443-scaled-9aa360e309.webp')">
+	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-102A5443-scaled-9aa360e309-1600.webp')">
 		<div class="dark-overlay"></div>
 	</div>
 	<div class="container relative z-1 max-w-[800px] text-center">
@@ -226,7 +226,7 @@
 
 <!-- Plan Your Visit -->
 <section class="relative py-24 overflow-hidden">
-	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-102A6470-scaled-9eb00dbc08.webp')">
+	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-102A6470-scaled-9eb00dbc08-1600.webp')">
 		<div class="dark-overlay"></div>
 	</div>
 	<div class="container relative z-1 max-w-[800px] text-center">

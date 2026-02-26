@@ -25,13 +25,19 @@
 	<div class="container flex items-center justify-between py-4">
 		<a href="/" class="shrink-0">
 			<img
-				src="/images/remote/fbcwimberley.com-First-Baptist-Church-of-wimberley-Wordmark-black-17cf094f99.webp"
+				src="/images/remote/fbcwimberley.com-First-Baptist-Church-of-wimberley-Wordmark-black-17cf094f99-320.webp"
 				alt="First Baptist Church Wimberley"
+				width="320"
+				height="112"
+				decoding="async"
 				class="logo-light h-10 w-auto hidden"
 			/>
 			<img
-				src="/images/remote/fbcwimberley.com-First-Baptist-Church-of-wimberley-Wordmark-white-2-29ef5e03e3.webp"
+				src="/images/remote/fbcwimberley.com-First-Baptist-Church-of-wimberley-Wordmark-white-2-29ef5e03e3-320.webp"
 				alt="First Baptist Church Wimberley"
+				width="320"
+				height="112"
+				decoding="async"
 				class="logo-dark h-10 w-auto block"
 			/>
 		</a>

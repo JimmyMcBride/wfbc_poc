@@ -2,9 +2,21 @@
 	import { onMount } from 'svelte';
 
 	const images = [
-		'/images/remote/fbcwimberley.com-102A6470-scaled-9eb00dbc08.webp',
-		'/images/remote/fbcwimberley.com-102A6447-scaled-ea6e616800.webp',
-		'/images/remote/fbcwimberley.com-102A5443-scaled-9aa360e309.webp'
+		{
+			src: '/images/remote/fbcwimberley.com-102A6470-scaled-9eb00dbc08-1600.webp',
+			srcset:
+				'/images/remote/fbcwimberley.com-102A6470-scaled-9eb00dbc08-960.webp 960w, /images/remote/fbcwimberley.com-102A6470-scaled-9eb00dbc08-1600.webp 1600w'
+		},
+		{
+			src: '/images/remote/fbcwimberley.com-102A6447-scaled-ea6e616800-1600.webp',
+			srcset:
+				'/images/remote/fbcwimberley.com-102A6447-scaled-ea6e616800-960.webp 960w, /images/remote/fbcwimberley.com-102A6447-scaled-ea6e616800-1600.webp 1600w'
+		},
+		{
+			src: '/images/remote/fbcwimberley.com-102A5443-scaled-9aa360e309-1600.webp',
+			srcset:
+				'/images/remote/fbcwimberley.com-102A5443-scaled-9aa360e309-960.webp 960w, /images/remote/fbcwimberley.com-102A5443-scaled-9aa360e309-1600.webp 1600w'
+		}
 	];
 
 	let currentSlide = $state(0);
@@ -19,9 +31,9 @@
 	onMount(() => {
 		// Delay non-LCP image fetches so the first hero paint happens sooner.
 		const preloadTimer = window.setTimeout(() => {
-			for (const src of images.slice(1)) {
+			for (const image of images.slice(1)) {
 				const img = new Image();
-				img.src = src;
+				img.src = image.src;
 				img.decoding = 'async';
 			}
 		}, 2500);
@@ -31,14 +43,16 @@
 </script>
 
 <svelte:head>
-	<link rel="preload" as="image" href={images[0]} fetchpriority="high" />
+	<link rel="preload" as="image" href={images[0].src} imagesrcset={images[0].srcset} imagesizes="100vw" fetchpriority="high" />
 </svelte:head>
 
 <section class="relative min-h-screen flex items-end justify-center overflow-hidden">
-	{#each images as src, i}
+	{#each images as image, i}
 		{#if i === 0 || i === currentSlide}
 			<img
-				src={src}
+				src={image.src}
+				srcset={image.srcset}
+				sizes="100vw"
 				alt=""
 				aria-hidden="true"
 				class="hero-slide absolute inset-0 w-full h-full object-cover will-change-[opacity] transition-opacity duration-1000 ease-in-out"

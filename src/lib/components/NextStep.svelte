@@ -1,3 +1,12 @@
+<script lang="ts">
+	import { goto } from '$app/navigation';
+
+	function goToConnect(event: MouseEvent) {
+		event.preventDefault();
+		goto('/connect', { noScroll: false });
+	}
+</script>
+
 <section class="relative py-20 md:py-28 bg-(--color-bg-alt) overflow-hidden">
 	<div class="relative z-1 max-w-[900px] mx-auto px-6 text-center">
 		<p class="section-label">Your Journey</p>
@@ -29,7 +38,7 @@
 			</div>
 		</div>
 
-		<a href="/connect" class="nextstep-btn inline-flex items-center gap-2 py-3.5 px-10 rounded-full bg-(--color-primary) text-white font-semibold text-[0.95rem] tracking-[0.02em] transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] hover:bg-(--color-primary-hover) hover:text-white hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(44,95,124,0.3)]">
+		<a href="/connect" onclick={goToConnect} class="nextstep-btn inline-flex items-center gap-2 py-3.5 px-10 rounded-full bg-(--color-primary) text-white font-semibold text-[0.95rem] tracking-[0.02em] transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] hover:bg-(--color-primary-hover) hover:text-white hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(44,95,124,0.3)]">
 			Take Your Next Step
 			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="transition-transform duration-300"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
 		</a>

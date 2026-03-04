@@ -4,7 +4,6 @@
 
 <svelte:head>
 	<title>Connect - First Baptist Church Wimberley</title>
-	<script src="https://js.churchcenter.com/modal/v1"></script>
 </svelte:head>
 
 <section class="relative min-h-[52vh] md:min-h-[58vh] flex items-end justify-center overflow-hidden">
@@ -83,16 +82,15 @@
 			</p>
 
 			<div class="flex flex-wrap gap-2.5 mb-6">
-				<span class="option-pill">Get Baptized</span>
-				<span class="option-pill">Follow Jesus</span>
-				<span class="option-pill">Become A Member</span>
+				<span class="option-badge">Get Baptized</span>
+				<span class="option-badge">Follow Jesus</span>
+				<span class="option-badge">Become A Member</span>
 			</div>
 
 			<a
 				href={nextStepFormUrl}
 				target="_blank"
 				rel="noopener"
-				data-open-in-church-center-modal="true"
 				class="nextstep-submit inline-flex items-center justify-center gap-2 py-3.5 px-8 rounded-full bg-(--color-accent) text-white font-semibold text-[0.95rem] tracking-[0.02em] transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] hover:bg-(--color-accent-hover) hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(200,145,90,0.3)]"
 			>
 				Open Next Step Form
@@ -146,16 +144,30 @@
 		backdrop-filter: blur(10px);
 	}
 
-	.option-pill {
+	.option-badge {
 		display: inline-flex;
 		align-items: center;
 		justify-content: center;
-		padding: 0.6rem 1rem;
-		border-radius: var(--radius-full);
-		border: 1px solid rgba(255, 255, 255, 0.14);
-		background: rgba(255, 255, 255, 0.08);
-		color: rgba(255, 255, 255, 0.82);
-		font-size: 0.9rem;
+		gap: 0.5rem;
+		padding: 0.42rem 0.78rem;
+		border-radius: 999px;
+		border: 1px solid rgba(255, 255, 255, 0.24);
+		background: rgba(255, 255, 255, 0.12);
+		color: rgba(255, 255, 255, 0.92);
+		font-size: 0.78rem;
+		font-weight: 700;
+		letter-spacing: 0.06em;
+		text-transform: uppercase;
+		line-height: 1;
+	}
+
+	.option-badge::before {
+		content: '';
+		width: 0.42rem;
+		height: 0.42rem;
+		border-radius: 999px;
+		background: var(--color-accent);
+		box-shadow: 0 0 0 2px rgba(200, 145, 90, 0.22);
 	}
 
 	.nextstep-submit:hover svg {

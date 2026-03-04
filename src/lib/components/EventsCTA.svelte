@@ -6,7 +6,7 @@
 			<a href="https://fbcwimberley.churchcenter.com/registrations" class="btn btn-outline hover:btn-outline-hover">
 				Find Upcoming Events
 			</a>
-			<a href="http://eepurl.com/bUEnaz" class="btn btn-accent hover:btn-accent-hover">
+			<a href="#stay-in-the-loop" class="btn btn-accent hover:btn-accent-hover">
 				Signup For Our Weekly Email Newsletter
 			</a>
 		</div>

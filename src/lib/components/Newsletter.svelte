@@ -47,7 +47,7 @@
 	}
 </script>
 
-<section class="relative py-20 md:py-28 overflow-hidden">
+<section id="stay-in-the-loop" class="relative py-20 md:py-28 overflow-hidden">
 	<div class="absolute inset-0 bg-cover bg-center bg-fixed" style="background-image: url('/images/remote/fbcwimberley.com-s-h-gue-CjMwAu4-OqY-unsplash-scaled-f09ccd30b3.webp')">
 		<div class="dark-overlay"></div>
 	</div>

@@ -1,9 +1,10 @@
 <script lang="ts">
 	import { goto } from '$app/navigation';
 
-	function goToConnect(event: MouseEvent) {
+	async function goToConnect(event: MouseEvent) {
 		event.preventDefault();
-		goto('/connect', { noScroll: false });
+		await goto('/connect', { noScroll: false });
+		window.scrollTo({ top: 0, left: 0, behavior: 'auto' });
 	}
 </script>
 

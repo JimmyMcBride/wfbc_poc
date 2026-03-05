@@ -69,6 +69,7 @@
 	let submitting = $state(false);
 	let submitted = $state(false);
 	let submitError = $state('');
+	const showContactSection = false;
 
 	async function handleContactSubmit(e: SubmitEvent) {
 		e.preventDefault();
@@ -207,45 +208,47 @@
 	</div>
 </section>
 
-<section class="py-20 bg-(--color-bg-alt)">
-	<div class="container max-w-[900px]">
-		<div class="text-center mb-9">
-			<p class="section-label">Contact</p>
-			<h2 class="text-[clamp(1.75rem,4vw,2.5rem)] mb-3">Got Questions? Find Out More.</h2>
-		</div>
+{#if showContactSection}
+	<section class="py-20 bg-(--color-bg-alt)">
+		<div class="container max-w-[900px]">
+			<div class="text-center mb-9">
+				<p class="section-label">Contact</p>
+				<h2 class="text-[clamp(1.75rem,4vw,2.5rem)] mb-3">Got Questions? Find Out More.</h2>
+			</div>
 
-		<div class="rounded-[var(--radius-lg)] border border-(--color-border-light) bg-(--color-bg-card) p-7 md:p-9">
-			<form class="flex flex-col gap-4.5" onsubmit={handleContactSubmit}>
-				{#if submitted}
-					<div class="rounded-[var(--radius-md)] border border-[rgba(16,185,129,0.3)] bg-[rgba(16,185,129,0.12)] text-[#16a34a] p-4">
-						Thanks for contacting us. We will reach out soon.
-					</div>
-				{:else}
-					<div class="flex flex-col gap-1.5">
-						<label for="women-name" class="text-[0.84rem] font-medium uppercase tracking-[0.06em] text-(--color-text-muted)">Name</label>
-						<input id="women-name" type="text" bind:value={name} placeholder="Name" class="women-input" />
-					</div>
-					<div class="flex flex-col gap-1.5">
-						<label for="women-email" class="text-[0.84rem] font-medium uppercase tracking-[0.06em] text-(--color-text-muted)">Email</label>
-						<input id="women-email" type="email" bind:value={email} required placeholder="Email" class="women-input" />
-					</div>
-					<div class="flex flex-col gap-1.5">
-						<label for="women-message" class="text-[0.84rem] font-medium uppercase tracking-[0.06em] text-(--color-text-muted)">Message</label>
-						<textarea id="women-message" bind:value={message} rows="4" placeholder="Message" class="women-input resize-y min-h-[120px]"></textarea>
-					</div>
-					<div>
-						<button type="submit" class="btn btn-primary hover:btn-primary-hover disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none" disabled={submitting}>
-							{submitting ? 'Sending...' : 'Contact Us'}
-						</button>
-					</div>
-					{#if submitError}
-						<p class="text-[#b91c1c] text-[0.9rem]">{submitError}</p>
+			<div class="rounded-[var(--radius-lg)] border border-(--color-border-light) bg-(--color-bg-card) p-7 md:p-9">
+				<form class="flex flex-col gap-4.5" onsubmit={handleContactSubmit}>
+					{#if submitted}
+						<div class="rounded-[var(--radius-md)] border border-[rgba(16,185,129,0.3)] bg-[rgba(16,185,129,0.12)] text-[#16a34a] p-4">
+							Thanks for contacting us. We will reach out soon.
+						</div>
+					{:else}
+						<div class="flex flex-col gap-1.5">
+							<label for="women-name" class="text-[0.84rem] font-medium uppercase tracking-[0.06em] text-(--color-text-muted)">Name</label>
+							<input id="women-name" type="text" bind:value={name} placeholder="Name" class="women-input" />
+						</div>
+						<div class="flex flex-col gap-1.5">
+							<label for="women-email" class="text-[0.84rem] font-medium uppercase tracking-[0.06em] text-(--color-text-muted)">Email</label>
+							<input id="women-email" type="email" bind:value={email} required placeholder="Email" class="women-input" />
+						</div>
+						<div class="flex flex-col gap-1.5">
+							<label for="women-message" class="text-[0.84rem] font-medium uppercase tracking-[0.06em] text-(--color-text-muted)">Message</label>
+							<textarea id="women-message" bind:value={message} rows="4" placeholder="Message" class="women-input resize-y min-h-[120px]"></textarea>
+						</div>
+						<div>
+							<button type="submit" class="btn btn-primary hover:btn-primary-hover disabled:opacity-70 disabled:cursor-not-allowed disabled:transform-none disabled:shadow-none" disabled={submitting}>
+								{submitting ? 'Sending...' : 'Contact Us'}
+							</button>
+						</div>
+						{#if submitError}
+							<p class="text-[#b91c1c] text-[0.9rem]">{submitError}</p>
+						{/if}
 					{/if}
-				{/if}
-			</form>
+				</form>
+			</div>
 		</div>
-	</div>
-</section>
+	</section>
+{/if}
 
 <style>
 	.social-pill {

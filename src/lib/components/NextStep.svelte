@@ -24,7 +24,7 @@
 					sizes="(min-width: 768px) 45vw, 100vw"
 					alt="Church community"
 					loading="lazy"
-					class="w-full h-[260px] md:h-[340px] object-cover transition-transform duration-600 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-[1.04]"
+					class="w-full h-[260px] md:h-[340px] object-cover image-zoom-hover"
 				/>
 			</div>
 			<div class="nextstep-image-wrap rounded-[var(--radius-lg)] overflow-hidden relative group">
@@ -34,14 +34,18 @@
 					sizes="(min-width: 768px) 45vw, 100vw"
 					alt="Church fellowship"
 					loading="lazy"
-					class="w-full h-[260px] md:h-[340px] object-cover transition-transform duration-600 ease-[cubic-bezier(0.23,1,0.32,1)] group-hover:scale-[1.04]"
+					class="w-full h-[260px] md:h-[340px] object-cover image-zoom-hover"
 				/>
 			</div>
 		</div>
 
-		<a href="/connect" onclick={goToConnect} class="nextstep-btn inline-flex items-center gap-2 py-3.5 px-10 rounded-full bg-(--color-primary) text-white font-semibold text-[0.95rem] tracking-[0.02em] transition-all duration-300 ease-[cubic-bezier(0.23,1,0.32,1)] hover:bg-(--color-primary-hover) hover:text-white hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(44,95,124,0.3)]">
+		<a
+			href="/connect"
+			onclick={goToConnect}
+			class="arrow-slide-hover inline-flex items-center gap-2 py-3.5 px-10 rounded-full bg-(--color-primary) text-white font-semibold text-[0.95rem] tracking-[0.02em] transition-all duration-300 hover:bg-(--color-primary-hover) hover:text-white hover:-translate-y-0.5 hover:shadow-[0_8px_24px_rgba(44,95,124,0.3)]"
+		>
 			Take Your Next Step
-			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="transition-transform duration-300"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
+			<svg xmlns="http://www.w3.org/2000/svg" width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
 		</a>
 	</div>
 </section>
@@ -58,9 +62,5 @@
 
 	.nextstep-image-wrap:hover::after {
 		opacity: 0;
-	}
-
-	.nextstep-btn:hover svg {
-		transform: translateX(4px);
 	}
 </style>

@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Card from '$lib/ui/Card.svelte';
+
 	const features = [
 		{
 			icon: 'tv',
@@ -28,7 +30,12 @@
 
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-5 md:gap-6 lg:gap-8">
 			{#each features as feature}
-				<a href={feature.href} class="feature-card group flex flex-col items-center text-center gap-4 py-10 px-8 lg:py-12 lg:px-8 no-underline transition-all duration-[400ms] ease-[cubic-bezier(0.23,1,0.32,1)] hover:-translate-y-1.5 hover:shadow-[var(--shadow-lg)]" target={feature.href.startsWith('https://fbcwimberley.com') ? undefined : '_blank'}>
+				<Card
+					href={feature.href}
+					hover={false}
+					class="feature-card group flex flex-col items-center text-center gap-4 py-10 px-8 lg:py-12 lg:px-8 no-underline transition-all duration-[400ms] ease-[cubic-bezier(0.23,1,0.32,1)] hover:-translate-y-1.5 hover:shadow-[var(--shadow-lg)]"
+					target={feature.href.startsWith('https://fbcwimberley.com') ? undefined : '_blank'}
+				>
 					<div class="flex items-center justify-center w-16 h-16 bg-[rgba(200,145,90,0.15)] text-(--color-accent) rounded-full border border-[rgba(200,145,90,0.25)]">
 						{#if feature.icon === 'tv'}
 							<svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="7" width="20" height="15" rx="2" ry="2"></rect><polyline points="17 2 12 7 7 2"></polyline></svg>
@@ -44,30 +51,8 @@
 						Learn more
 						<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" class="transition-transform duration-300"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
 					</span>
-				</a>
+				</Card>
 			{/each}
 		</div>
 	</div>
 </section>
-
-<style>
-	.feature-card {
-		background: var(--color-bg-card);
-		border: 1px solid var(--color-border-light);
-		border-radius: var(--radius-lg);
-		box-shadow: var(--shadow-sm);
-	}
-
-	.feature-card:hover {
-		border-color: var(--color-border);
-	}
-
-	.feature-card:hover .feature-link {
-		opacity: 1;
-		transform: translateY(0);
-	}
-
-	.feature-card:hover .feature-link svg {
-		transform: translateX(4px);
-	}
-</style>

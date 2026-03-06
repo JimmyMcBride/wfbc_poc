@@ -212,8 +212,5 @@
 		display: block;
 	}
 
-	/* Accordion chevron rotation */
-	svg.rotated {
-		transform: rotate(180deg);
-	}
+	/* Chevron rotation handled by global .rotated utility */
 </style>

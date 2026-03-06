@@ -1,6 +1,8 @@
 # Coding Standards
 
 > **Read when:** Writing new code, reviewing conventions, or unsure about naming/style.
+>
+> **Policy source:** For component-layer decisions (primitive vs composed vs page-local) and design-system evolution rules, refer to `design-system-governance.md`.
 
 ## Svelte 5 Conventions
 
@@ -76,6 +78,7 @@ Follow this order within `.svelte` files:
 | Type | Location |
 |------|----------|
 | Reusable components | `src/lib/components/` |
+| Reusable UI primitives | `src/lib/ui/` |
 | Stores | `src/lib/stores/` |
 | Page-specific sections | Inline in the page's `+page.svelte` |
 | Global styles & tokens | `src/app.css` |

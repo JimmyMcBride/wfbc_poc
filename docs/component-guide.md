@@ -1,6 +1,8 @@
 # Component Guide
 
 > **Read when:** Creating new UI sections or modifying existing component patterns.
+>
+> **Policy source:** For decisions about whether to use primitives vs section-local patterns, or when to introduce new reusable components, follow `design-system-governance.md` first.
 
 ## Component Inventory
 

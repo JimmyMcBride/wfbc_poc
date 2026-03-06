@@ -125,28 +125,29 @@ border-radius: var(--radius-lg);
 
 > **Only read guides relevant to your current task to conserve tokens.**
 
-See `ClaudeInstructions/` for detailed documentation:
+See `docs/` for detailed documentation:
 
 | Guide | Read when... |
 |-------|-------------|
-| [architecture-overview.md](ClaudeInstructions/architecture-overview.md) | Understanding component relationships, data flow, or how the app is structured |
-| [coding-standards.md](ClaudeInstructions/coding-standards.md) | Writing new code, reviewing conventions, or unsure about naming/style |
-| [common-tasks.md](ClaudeInstructions/common-tasks.md) | Adding pages, components, modifying theme, or routine development workflows |
-| [theming-guide.md](ClaudeInstructions/theming-guide.md) | Working on light/dark mode, colors, or the CSS custom property system |
-| [component-guide.md](ClaudeInstructions/component-guide.md) | Creating new UI sections or modifying existing component patterns |
+| [architecture-overview.md](docs/architecture-overview.md) | Understanding component relationships, data flow, or how the app is structured |
+| [design-system-governance.md](docs/design-system-governance.md) | Choosing which UI layer to change, when to create/extend primitives, and keeping UI evolution consistent |
+| [coding-standards.md](docs/coding-standards.md) | Writing new code, reviewing conventions, or unsure about naming/style |
+| [common-tasks.md](docs/common-tasks.md) | Adding pages, components, modifying theme, or routine development workflows |
+| [theming-guide.md](docs/theming-guide.md) | Working on light/dark mode, colors, or the CSS custom property system |
+| [component-guide.md](docs/component-guide.md) | Creating new UI sections or modifying existing component patterns |
 
 ### Guide Selection Helper
 
 | Task | Guides to read |
 |------|---------------|
 | Add a new page | common-tasks, coding-standards |
-| Add a new section component | component-guide, coding-standards |
+| Add a new section component | design-system-governance, component-guide, coding-standards |
 | Change colors or theme | theming-guide |
 | Fix layout or responsiveness | component-guide |
 | Understand how something works | architecture-overview |
-| Refactor or restructure | architecture-overview, coding-standards |
-| Add interactivity (forms, toggles) | component-guide, common-tasks |
+| Refactor or restructure | architecture-overview, design-system-governance, coding-standards |
+| Add interactivity (forms, toggles) | design-system-governance, component-guide, common-tasks |
 
 ## Maintenance
 
-When making changes that affect project structure, conventions, or architecture, **update the relevant guide in ClaudeInstructions/** and this file if key locations or quick reference info changed.
+When making changes that affect project structure, conventions, or architecture, **update the relevant guide in docs/** and this file if key locations or quick reference info changed.

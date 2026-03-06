@@ -1,4 +1,6 @@
 <script lang="ts">
+	import Card from '$lib/ui/Card.svelte';
+
 	const nextStepFormUrl = 'https://fbcwimberley.churchcenter.com/people/forms/40958';
 </script>
 
@@ -29,7 +31,7 @@
 		</div>
 
 		<div class="grid grid-cols-1 md:grid-cols-3 gap-5">
-			<a href="/about-us" class="connect-card p-7 rounded-[var(--radius-lg)] border border-(--color-border-light) bg-(--color-bg-card)">
+			<Card href="/about-us" hover={false} class="connect-card p-7 arrow-slide-hover">
 				<p class="section-label mb-3">New Here?</p>
 				<h3 class="text-[1.25rem] mb-2">Sunday Mornings</h3>
 				<p class="text-(--color-text-muted) leading-[1.7] mb-5">Join us in person at 9:30AM and 11:00AM. We would love to meet you.</p>
@@ -37,9 +39,9 @@
 					Plan Your Visit
 					<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
 				</span>
-			</a>
+			</Card>
 
-			<a href="https://fbcwimberley.churchcenter.com/groups/" target="_blank" rel="noopener" class="connect-card p-7 rounded-[var(--radius-lg)] border border-(--color-border-light) bg-(--color-bg-card)">
+			<Card href="https://fbcwimberley.churchcenter.com/groups/" target="_blank" rel="noopener" hover={false} class="connect-card p-7 arrow-slide-hover">
 				<p class="section-label mb-3">Get Plugged In</p>
 				<h3 class="text-[1.25rem] mb-2">Join A Group</h3>
 				<p class="text-(--color-text-muted) leading-[1.7] mb-5">Find people to grow with through Bible studies, classes, and ministry groups.</p>
@@ -47,9 +49,9 @@
 					Browse Groups
 					<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
 				</span>
-			</a>
+			</Card>
 
-			<a href="https://onrealm.org/fbcwimberley/give/now" target="_blank" rel="noopener" class="connect-card p-7 rounded-[var(--radius-lg)] border border-(--color-border-light) bg-(--color-bg-card)">
+			<Card href="https://onrealm.org/fbcwimberley/give/now" target="_blank" rel="noopener" hover={false} class="connect-card p-7 arrow-slide-hover">
 				<p class="section-label mb-3">Support The Mission</p>
 				<h3 class="text-[1.25rem] mb-2">Give Online</h3>
 				<p class="text-(--color-text-muted) leading-[1.7] mb-5">Would you like to give to what God is doing at FBCW? Give securely online.</p>
@@ -57,7 +59,7 @@
 					Give Now
 					<svg xmlns="http://www.w3.org/2000/svg" width="17" height="17" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
 				</span>
-			</a>
+			</Card>
 		</div>
 	</div>
 </section>
@@ -122,24 +124,6 @@
 </section>
 
 <style>
-	.connect-card {
-		transition: transform 260ms ease, box-shadow 260ms ease, border-color 260ms ease;
-	}
-
-	.connect-card:hover {
-		transform: translateY(-4px);
-		box-shadow: var(--shadow-md);
-		border-color: var(--color-border);
-	}
-
-	.connect-card:hover svg {
-		transform: translateX(4px);
-	}
-
-	.connect-card svg {
-		transition: transform 220ms ease;
-	}
-
 	.next-step-card {
 		backdrop-filter: blur(10px);
 	}

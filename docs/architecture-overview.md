@@ -126,6 +126,6 @@ This creates a rhythmic visual flow. When adding new sections, maintain this alt
 
 ## Image Strategy
 
-All images are externally hosted on `fbcwimberley.com` WordPress media library. There are no local image assets (except favicon.svg). Images are referenced by full URL.
+All images are stored locally in the `static/` directory as `.webp` files for optimal performance. There are no externally hosted images (except favicon.svg which remains in `static/`). Images are referenced via root-relative paths (e.g., `/images/some-photo.webp`).
 
-Staff photos use the `1024x683` size variant for a good balance of quality and load time.
+WebP format is used exclusively across the project for its superior compression and quality compared to JPEG/PNG.
